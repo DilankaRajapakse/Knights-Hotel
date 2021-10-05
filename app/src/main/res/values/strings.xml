@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Hotel Management System</string>
+    <string name="sr">Single Room</string>
+    <string name="dr">Double Room</string>
+    <string name="tr">Triple Room</string>
+    <string name="qr">Quadruple Room</string>
+    <string name="srd">Single bed, TV, AC, Wi-Fi, Minibar</string>
+    <string name="drd">Two beds, TV, AC, Wi-Fi, Minibar</string>
+    <string name="trd">Double bed and single bed, TV, AC, Wi-Fi, Minibar</string>
+    <string name="qrd">Four single beds, TV, AC, Wi-Fi, Minibar</string>
+    <string name="srp">-10,500 LKR-</string>
+    <string name="drp">-14,500 LKR-</string>
+    <string name="trp">-16,500 LKR-</string>
+    <string name="qrp">-18,000 LKR-</string>
+    <string name="btbtr">BOOK THE ROOM</string>
+    <string name="btbk">BOOK NOW</string>
+    <string name="chit">Check-In</string>
+    <string name="chot">Check-Out</string>
+    <string name="rlh">Select the room type</string>
+    <string name="gh">Guests</string>
+    <string name="ghad">Adult(s)</string>
+    <string name="ghch">Children</string>
+    <string name="pi">Personal Information</string>
+    <string name="dplrt">Room Type</string>
+    <string name="dplfn">Full Name</string>
+    <string name="dplem">Email</string>
+    <string name="dplph">Phone</string>
+    <string name="broup">UPDATE</string>
+    <string name="broedit">UPDATE BOOKING</string>
+    <string name="brodel">DELETE BOOKING</string>
+    <string name="brocon">CONFIRM</string>
+    <string name="brconf">Are you sure to confirm booking?</string>
+    <string name="bnwh">BOOK NOW</string>
+    <string name="updh">UPDATE YOUR BOOKING</string>
+    <string name="bdrwh">CONFIRM YOUR BOOKING</string>
+    <string name="roomreservation">Rooms</string>
+    <string name="hallreservation">Halls</string>
+    <string name="tablereservation">Tables</string>
+    <string name="delivery">Delivery</string>
+    <string name="noOfPeople">No. of people</string>
+    <string name="table_booking">TABLE BOOKING</string>
+    <string name="pick_a_date">Pick a Date</string>
+    <string name="choose_a_time">Choose a time</string>
+    <string name="comments">Comments</string>
+    <string name="contact">CONTACT</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="telephone">Telephone</string>
+    <string name="book">BOOK</string>
+    <string name="firstname">First Name</string>
+
+
+    <string-array name="rolist">
+        <item>Room Type</item>
+        <item>Single Room</item>
+        <item>Double Room</item>
+        <item>Triple Room</item>
+        <item>Quadruple Room</item>
+    </string-array>
+
+    <string-array name="numberOfPeople">
+        <item>Number of People</item>
+        <item>For 1 person</item>
+        <item>For 2 people</item>
+        <item>For 4 people</item>
+        <item>For 8 people</item>
+        <item>For 16 people</item>
+    </string-array>
+
+
+    <string name="hall_type1">Indoor Wedding Hall</string>
+    <string name="hallty1in">22 Tables,1000 Chairs</string>
+    <string name="hall1P">8,000LKR/hour</string>
+    <string name="htype2">Outdoor Wedding Hall</string>
+    <string name="hallty2in">10 Tables,150 Chairs</string>
+    <string name="hall2p">5,000LKR/hour</string>
+    <string name="htp3">Conference Hall</string>
+    <string name="htp3inf">1 Confernace Tables,800 Chairs</string>
+    <string name="hall3p">10,000LKR/hour</string>
+    <string name="pht4">Kids Party Hall</string>
+    <string name="htp4inf">10 Children Tables, 60 Children chairs</string>
+    <string name="hall4p">3,500LKR/hour</string>
+    <string name="hbbutton1">BOOK THE HALL</string>
+
+    <string name="booking">BOOK NOW</string>
+    <string name="halltype">Select the hall type</string>
+    <string-array name="halllist">
+        <item>Indoor Wedding Hall</item>
+        <item>Outdoor Wedding Hall </item>
+        <item>Conference Hall</item>
+        <item>Kids Party Hall</item>
+    </string-array>
+    <string name="date">Click-on Date</string>
+    <string name="time">Start Time</string>
+    <string name="persinfor">Personal Information</string>
+    <string name="name">Full Name</string>
+    <string name="fulln">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="bnbutton">BOOK NOW</string>
+
+    <string name="cofirmb">CONFIRM YOUR BOOKING </string>
+    <string name="ddate">Book the date</string>
+    <string name="ht">Hall Type</string>
+    <string name="tv">Text View</string>
+    <string name="update">UPDATE BOOKING</string>
+    <string name="delete">DELETE BOOKING</string>
+    <string name="confirmb">CONFIRM</string>
+    <string name="confirmmsg">Are you sure to confirm booking?</string>
+    <string name="upfatehed">UPDATE YOUR BOOKING</string>
+    <string name="upb">UPDATE</string>
+
+    <string name="rc">Rice And Curry</string>
+    <string name="rcp">Veg and Non-Veg</string>
+    <string name="rcprice">-250 LKR-</string>
+    <string name="frc">Fried Rice</string>
+    <string name="frcp">Veg and Non-Veg \nLump Rice \nNasi Goreng</string>
+    <string name="frcprice">-350 LKR-</string>
+    <string name="kttu">Koththu</string>
+    <string name="kttup"> Veg and Non-Veg \Cheese \nEgg</string>
+    <string name="kttuprice">-400 LKR-</string>
+    <string name="hpprs">Hoppers</string>
+    <string name="hpprsp"> Egg \nHoney</string>
+    <string name="hpprsprice">-30 LKR-</string>
+    <string name="odn">ORDER NOW</string>
+    <string name="doh">Place Your Order</string>
+    <string name="nme">Name</string>
+    <string name="diemail"> Email</string>
+    <string name="phn">Phone</string>
+    <string name="slctfd">Select Food Item</string>
+    <string name="quntt">Quantity</string>
+    <string name="deliads">Delivery Address</string>
+    <string name="cty">Near By City</string>
+    <string name="plcodrbtn">PLACE ORDER</string>
+    <string name="odch">Confirm Your Order</string>
+    <string name="sfitm">Selected Food Item</string>
+    <string name="updodr">UPDATE ORDER</string>
+    <string name="delodr">DELETE ORDER</string>
+    <string name="odrcf">CONFIRM</string>
+    <string name="deliupdtH">Update Your Order</string>
+    <string name="deliupdtbtn">UPDATE</string>
+    <string name="norselect">No. of Rooms</string>
+    <string name="totprice">Total Price</string>
+    <string name="welcome">Welcome</string>
+
+    <string-array name="fooditem">
+        <item>Rice And Curry</item>
+        <item>Fried Rice</item>
+        <item>Koththu</item>
+        <item>Hoppers</item>
+    </string-array>
+
+    <string-array name="nearcity">
+        <item>Gampaha</item>
+        <item>Colombo</item>
+        <item>Kaluthara</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="no_of_hours">No of hours</string>
+    <string name="total_price">Total Price</string>
+    <string name="how_many_hours">How many hours?</string>
+    <string name="_05_10_2020">05/10/2021</string>
+    <string name="_05_10_2021">05/10/2021</string>
+    <string name="room_booking_details">Room Booking Details</string>
+    <string name="view_all_table_bookings">View All Table Bookings</string>
+    <string name="table_booking_details">Table Booking Details</string>
+    <string name="comments2">Comments :-</string>
+    <string name="total_price2">Total Price :-</string>
+    <string name="hall_type">Hall Type :-</string>
+    <string name="date2">Date :-</string>
+    <string name="view_all_hall_bookings">View All Hall Bookings</string>
+    <string name="address">Address :-</string>
+    <string name="food_item">Food Item :-</string>
+    <string name="quantity">Quantity :-</string>
+    <string name="near_by_city">Near By City :-</string>
+    <string name="delivery_details">Delivery Details</string>
+    <string name="view_all_delivery_details">View All Delivery details</string>
+
+
+</resources>
+
+
+

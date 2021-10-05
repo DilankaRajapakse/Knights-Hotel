@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.knights.hotelmanagementsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.knights.hotelmanagementsystem.AdminDelivery"></activity>
+        <activity android:name="com.knights.hotelmanagementsystem.AdminHalls" />
+        <activity android:name="com.knights.hotelmanagementsystem.AdminTables" />
+        <activity android:name="com.knights.hotelmanagementsystem.AdminDashboard" />
+        <activity android:name="com.knights.hotelmanagementsystem.Admin_Register" />
+        <activity android:name="com.knights.hotelmanagementsystem.Admin_Login" />
+        <activity android:name="com.knights.hotelmanagementsystem.About_us" />
+        <activity android:name="com.knights.hotelmanagementsystem.Contact_us" />
+        <activity android:name="com.knights.hotelmanagementsystem.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.knights.hotelmanagementsystem.MainActivity" />
+        <activity android:name="com.knights.hotelmanagementsystem.bookedhallsdply" />
+        <activity android:name="com.knights.hotelmanagementsystem.updatehalls" />
+        <activity android:name="com.knights.hotelmanagementsystem.hallsbooking" />
+        <activity android:name="com.knights.hotelmanagementsystem.hall" />
+        <activity android:name="com.knights.hotelmanagementsystem.deliveryupdate" />
+        <activity android:name="com.knights.hotelmanagementsystem.deliveryconfirm" />
+        <activity android:name="com.knights.hotelmanagementsystem.deliveryorder" />
+        <activity android:name="com.knights.hotelmanagementsystem.deliverylanding" />
+        <activity android:name="com.knights.hotelmanagementsystem.tableUpdate" />
+        <activity android:name="com.knights.hotelmanagementsystem.tableBookings" />
+        <activity android:name="com.knights.hotelmanagementsystem.tables" />
+        <activity android:name="com.knights.hotelmanagementsystem.updateroom" />
+        <activity android:name="com.knights.hotelmanagementsystem.bookedroomdply" />
+        <activity android:name="com.knights.hotelmanagementsystem.roombooking" />
+        <activity android:name="com.knights.hotelmanagementsystem.AdminRooms" />
+        <activity android:name="com.knights.hotelmanagementsystem.rooms" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

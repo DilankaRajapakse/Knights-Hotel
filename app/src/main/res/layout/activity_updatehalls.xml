@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EEC7"
+    android:textAlignment="center"
+    tools:context=".updatehalls">
+
+  <TextView
+      android:id="@+id/updatehe"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="34dp"
+      android:layout_marginBottom="13dp"
+      android:fontFamily="@font/roboto_bold"
+      android:text="@string/updh"
+      android:textAlignment="center"
+      android:textColor="@color/rh"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/updht"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/updht"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/roboto_bold"
+      android:text="@string/halltype"
+      android:textAlignment="center"
+      android:textColor="@color/txc"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toTopOf="@+id/spinnerhty"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/updatehe" />
+
+  <TextView
+      android:id="@+id/vwefwev"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="87dp"
+      android:layout_marginEnd="87dp"
+      android:fontFamily="@font/roboto_bold"
+      android:text="No. of People"
+      android:textAlignment="center"
+      android:textColor="@color/txc"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toTopOf="@+id/noOfPeople"
+      app:layout_constraintEnd_toEndOf="@+id/noOfHours"
+      app:layout_constraintStart_toStartOf="@+id/updatehe"
+      app:layout_constraintTop_toBottomOf="@+id/spinnerhty" />
+
+  <Spinner
+      android:id="@+id/spinnerhty"
+      android:layout_width="248dp"
+      android:layout_height="0dp"
+      android:layout_marginBottom="8dp"
+      android:background="@color/back"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toTopOf="@+id/vwefwev"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/updht" />
+
+  <TextView
+      android:id="@+id/upddate"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/roboto_bold"
+      android:text="@string/date"
+      android:textColor="@color/txc"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toTopOf="@+id/updtedate"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/noOfPeople" />
+
+  <EditText
+      android:id="@+id/updtedate"
+      android:layout_width="248dp"
+      android:layout_height="0dp"
+      android:layout_marginBottom="10dp"
+      android:background="@color/back"
+      android:ems="10"
+      android:fontFamily="@font/roboto_bold"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textColor="@android:color/darker_gray"
+      app:layout_constraintBottom_toTopOf="@+id/updtime"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/upddate" />
+
+  <EditText
+      android:id="@+id/noOfPeople"
+      android:layout_width="248dp"
+      android:layout_height="0dp"
+      android:layout_marginBottom="12dp"
+      android:background="@color/back"
+      android:ems="10"
+      android:fontFamily="@font/roboto_bold"
+      android:hint="No. of People"
+      android:inputType="phone"
+      android:textAlignment="center"
+      android:textColor="@android:color/darker_gray"
+      app:layout_constraintBottom_toTopOf="@+id/upddate"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/vwefwev" />
+
+  <TextView
+      android:id="@+id/updtime"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/roboto_bold"
+      android:text="@string/time"
+      android:textAlignment="center"
+      android:textColor="@color/txc"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toTopOf="@+id/utimet"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/updtedate" />
+
+  <EditText
+      android:id="@+id/utimet"
+      android:layout_width="248dp"
+      android:layout_height="0dp"
+      android:layout_marginBottom="6dp"
+      android:background="@color/back"
+      android:ems="10"
+      android:fontFamily="@font/roboto_bold"
+      android:hint="8.00AM -  3.30PM"
+      android:inputType="time"
+      android:textAlignment="center"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/time"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/updtime" />
+
+  <TextView
+      android:id="@+id/time"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="3dp"
+      android:layout_marginEnd="3dp"
+      android:fontFamily="@font/roboto_bold"
+      android:text="@string/no_of_hours"
+      android:textAlignment="center"
+      android:textColor="@color/txc"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toTopOf="@+id/noOfHours"
+      app:layout_constraintEnd_toEndOf="@+id/updabutton"
+      app:layout_constraintStart_toStartOf="@+id/updtime"
+      app:layout_constraintTop_toBottomOf="@+id/utimet" />
+
+  <EditText
+      android:id="@+id/noOfHours"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="3dp"
+      android:layout_marginEnd="3dp"
+      android:layout_marginBottom="21dp"
+      android:background="@color/back"
+      android:ems="10"
+      android:fontFamily="@font/roboto_bold"
+      android:hint="No. of hours"
+      android:inputType="number"
+      android:textAlignment="center"
+      app:layout_constraintBottom_toTopOf="@+id/updpinfo"
+      app:layout_constraintEnd_toEndOf="@+id/updatehe"
+      app:layout_constraintStart_toStartOf="@+id/utimet"
+      app:layout_constraintTop_toBottomOf="@+id/time" />
+
+  <TextView
+      android:id="@+id/updpinfo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginBottom="11dp"
+      android:fontFamily="@font/roboto_bold"
+      android:text="@string/persinfor"
+      android:textAlignment="center"
+      android:textColor="@color/txc"
+      android:textSize="22sp"
+      app:layout_constraintBottom_toTopOf="@+id/updname"
+      app:layout_constraintStart_toStartOf="@+id/updname"
+      app:layout_constraintTop_toBottomOf="@+id/noOfHours" />
+
+  <EditText
+      android:id="@+id/updname"
+      android:layout_width="248dp"
+      android:layout_height="0dp"
+      android:background="@color/back"
+      android:ems="10"
+      android:fontFamily="@font/roboto_bold"
+      android:hint="@string/fulln"
+      android:inputType="textPersonName"
+      android:textAlignment="center"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/upemail"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/updpinfo" />
+
+  <EditText
+      android:id="@+id/upemail"
+      android:layout_width="248dp"
+      android:layout_height="0dp"
+      android:background="@color/back"
+      android:ems="10"
+      android:fontFamily="@font/roboto_bold"
+      android:hint="@string/email"
+      android:inputType="textEmailAddress"
+      android:textAlignment="center"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/updphone"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/updname" />
+
+  <EditText
+      android:id="@+id/updphone"
+      android:layout_width="248dp"
+      android:layout_height="0dp"
+      android:layout_marginBottom="29dp"
+      android:background="@color/back"
+      android:ems="10"
+      android:fontFamily="@font/roboto_bold"
+      android:hint="@string/phone"
+      android:inputType="phone"
+      android:textAlignment="center"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/updabutton"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/upemail" />
+
+  <Button
+      android:id="@+id/updabutton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="26dp"
+      android:background="@android:color/holo_orange_light"
+      android:fontFamily="serif"
+      android:text="@string/upb"
+      android:textColor="@color/lbtc"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/updphone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

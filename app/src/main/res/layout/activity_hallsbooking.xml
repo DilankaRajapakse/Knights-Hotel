@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EEC7"
+    android:textAlignment="center"
+    tools:context=".hallsbooking">
+
+
+    <EditText
+        android:id="@+id/noOfPeople"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/back"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="No. of people attending"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/hbooking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hbooking2" />
+
+    <TextView
+        android:id="@+id/halltype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/halltype"
+        android:textAlignment="center"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/halllist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hallhead" />
+
+    <TextView
+        android:id="@+id/hbooking"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/date"
+        android:textAlignment="center"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/booking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noOfPeople" />
+
+    <TextView
+        android:id="@+id/hbooking2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="No. of people attending"
+        android:textAlignment="center"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/noOfPeople"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/halllist" />
+
+    <TextView
+        android:id="@+id/hallhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/booking"
+        android:textColor="@color/rh"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/halltype"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/halllist"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="13dp"
+        android:background="@color/back"
+        android:clickable="true"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="insideInset"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/hbooking2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/halltype" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/no_of_hours"
+        android:textAlignment="center"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/noOfHours"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timed" />
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/time"
+        android:textAlignment="center"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/timed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/booking" />
+
+    <EditText
+        android:id="@+id/timed"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:background="@color/back"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="8:00AM-3:00PM"
+        android:inputType="time"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time2" />
+
+    <EditText
+        android:id="@+id/noOfHours"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="6dp"
+        android:background="@color/back"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="No. of hours"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/personalinfor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time" />
+
+    <TextView
+        android:id="@+id/personalinfor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/persinfor"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/fullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noOfHours" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:background="@color/back"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="@string/fulln"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personalinfor" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:background="@color/back"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullName" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:background="@color/back"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/bookBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddress" />
+
+    <Button
+        android:id="@+id/bookBtn"
+        android:layout_width="175dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/butc"
+        android:fontFamily="serif"
+        android:text="@string/bnbutton"
+        android:textColor="@color/back"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <EditText
+        android:id="@+id/booking"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="9dp"
+        android:background="@color/back"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:hint="@string/ddate"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/time2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hbooking" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EEC7"
+    tools:context=".bookedhallsdply"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-2dp">
+
+
+    <TextView
+        android:id="@+id/cdt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="No. of People"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ctimed2"
+        app:layout_constraintEnd_toStartOf="@+id/ctimed2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/hconfirmbooking"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/cofirmb"
+        android:textColor="@color/rh"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/cht"
+        android:layout_width="119dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/ht"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/sht"
+        app:layout_constraintEnd_toStartOf="@+id/sht"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/sht"
+        android:layout_width="192dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="116dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ctimednew"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timrdu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/date"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cdate"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/cdt"
+        android:layout_width="115dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/no_of_hours"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ctimednew"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ctimednew"
+        android:layout_width="193dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ctimed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sht" />
+
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="104dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/fulln"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/difullname"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/difullname"
+        android:layout_width="196dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/discfemail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ctimed" />
+
+    <TextView
+        android:id="@+id/ctimed2"
+        android:layout_width="195dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdate" />
+
+    <TextView
+        android:id="@+id/cdate"
+        android:layout_width="195dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toEndOf="@+id/timrdu"
+        app:layout_constraintTop_toBottomOf="@+id/sht" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="104dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/time"
+        android:textAlignment="center"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ctimed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ctimed"
+        android:layout_width="192dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/difullname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ctimednew" />
+
+    <TextView
+        android:id="@+id/cfemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/email"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/discfemail"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/discfemail"
+        android:layout_width="199dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/disphone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/difullname" />
+
+    <TextView
+        android:id="@+id/cfphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/phone"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/disphone"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/disphone"
+        android:layout_width="182dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/totalprice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toEndOf="@+id/cfphone"
+        app:layout_constraintTop_toBottomOf="@+id/discfemail" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/total_price"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/totalprice"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/upd"
+        android:fontFamily="serif"
+        android:text="@string/update"
+        android:textColor="@color/txc"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/delete"
+        app:layout_constraintEnd_toStartOf="@+id/delete"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="132dp"
+        android:background="@android:color/holo_red_light"
+        android:fontFamily="serif"
+        android:text="@string/delete"
+        android:textColor="@color/txc"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/confirmbooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/conf"
+        android:fontFamily="serif"
+        android:text="@string/confirmb"
+        android:textColor="@color/lbtc"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/askconfirm" />
+
+    <TextView
+        android:id="@+id/askconfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="85dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/confirmmsg"
+        android:textColor="@color/txc"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalprice" />
+
+    <TextView
+        android:id="@+id/totalprice"
+        android:layout_width="170dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/askconfirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disphone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
