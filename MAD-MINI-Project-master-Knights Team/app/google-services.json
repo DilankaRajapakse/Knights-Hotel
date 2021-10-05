@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "894838196973",
+    "firebase_url": "https://grand-classico-hotel-8b27c-default-rtdb.firebaseio.com",
+    "project_id": "grand-classico-hotel-8b27c",
+    "storage_bucket": "grand-classico-hotel-8b27c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894838196973:android:3062c63ef32be34408dae4",
+        "android_client_info": {
+          "package_name": "com.knights.hotelmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894838196973-970na897vkb2dki5etvaqk8ggunk7vfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMqxYntX8fdweEcHgGZTRx0min5cvE-EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894838196973-970na897vkb2dki5etvaqk8ggunk7vfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
